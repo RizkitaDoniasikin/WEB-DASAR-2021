@@ -18,10 +18,19 @@
 <input type="radio" name="jk" id="jk" value="p"> perempuan
 
 <br>
+<label for="hobby">HOBBY</label></td>
+			<td>:</td>
+			<td><input type="checkbox" name="hobby" value="komputer"> Komputer 
+			<input type="checkbox" name="hobby" value="Musik"> Musik
+			<input type="checkbox" name="hobby" value="olahraga"> Olahraga
+			<input type="checkbox" name="hobby" value="Travelling"> Travelling </td>
+        
+        <br>
 <select name="Jurusan">
     <option value="">PILIH JURUSAN</option>
     <option value="D3S1">D3S1</option>
     <option value="S1">S1 RPL</option>
+    <option value="S1">S1 likom</option>
 </select> <br>
 
 
@@ -29,8 +38,38 @@
 <textarea name="catatan" id="catatan" cols="50" rows="3"></textarea>
 <br>
 
+</form>
+<tr>
+    <td><label for="foto">FOTO</label></td>
+    <td>:</td>
+    <td><input type="file" name="foto" accept="image/*"></td>
+</tr>
+<br>
+
+<tr>
+    <td><label for="email">EMAIL</label></td>
+    <td>:</td>
+    <td><input required type="text" name="email" id="email"></td>
+</tr>
+<br>
+
+<tr>
+    <td><label for="password">SANDI LOGIN</label></td>
+    <td>:</td>
+    <td><input type="password" name="password"></tr>
+</tr>
+<br>
+
+<tr>
+    <td><label for="password">ULANGI SANDI LOGIN</label></td>
+    <td>:</td>
+    <td><input type="password" name="password"></td>
+</tr>
+
+<br>
 <input type="submit" name="submit" value="Simpan data">
 <input type="reset" value="batal">
+<button type="botton" onclick="alert('silahkan isi semua colom!')">Peringatan</button></td>
 
         </form>
     </body>
