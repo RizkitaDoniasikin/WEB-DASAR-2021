@@ -2,21 +2,33 @@
 <html lang="en">
 
     <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <link  rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
 <title>document</title>
     </head>
     <body>
-        <form action="method="post">
+        <form action="method="post>
+
+            <div class="mb-3">
 
             <label for="nim">NIM</label>
-<input type="text" name="nim" id="nim">
+<input type="text" name="nim" id="nim"><br>
+</div>
 
+<div class="mb-3">
             <label for="nama">NAMA</label>
             <input type="text" name="nama" id="nama">
+        </div>
+
 <br>
+<div class="mb-3">
 <label for="jk">Jenis Kelamin</label>
 <input type="radio" name="jk" id="jk" value="L"> Laki-Laki
 <input type="radio" name="jk" id="jk" value="p"> perempuan
-
+</div>
 <br>
 <label for="hobby">HOBBY</label></td>
 			<td>:</td>
@@ -72,5 +84,7 @@
 <button type="botton" onclick="alert('silahkan isi semua colom!')">Peringatan</button></td>
 
         </form>
+        <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
     </body>
 </html>
